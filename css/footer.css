@@ -1,0 +1,24 @@
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	color: #70757a;
+	background-color: #e2e4e7;
+	border-top: 1px solid #dadce0;
+}
+
+.footer-left, .footer-right {
+	padding: 0 2rem;
+}
+
+.footer-left a:not(:last-child), .footer-right a:not(:last-child) {
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+a.footer-links {
+	color: #70757a;
+}
